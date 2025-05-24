@@ -1,0 +1,22 @@
+{
+    "name": "fastify-shop",
+    "version": "1.0.0",
+    "main": "api/index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "nodemon src/index.ts",
+        "start": "node api/index.js"
+    },
+    "keywords": [],
+    "author": "OverNext",
+    "license": "MIT",
+    "description": "",
+    "devDependencies": {
+        "@types/node": "^22.15.21",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "fastify": "^5.3.3"
+    }
+}
